@@ -5,12 +5,13 @@ const Header = () => {
     return (
         <div className="header-wrapper">
             <div className="main-info">
-                <h1>Software Engineer</h1>
+                <h1>Landon Tomaine</h1>
+                <h3>Software Engineer</h3>
                 <Typed
                     className="typed-text"
-                    strings={["C#", "T-SQL", "SAFE - Scrum/Agile", "RESTful APIs", "ASP.NET Web Forms", "ADO.NET", "Leadership" ]}
-                    typedSpeed={30}
-                    backSpeed={60}
+                    strings={["C#", "T-SQL", "RESTful and Web Services (SOAP)", "Relational Databases", "Software Development Lifecycle", "Object-oriented Design", "Leadership", "Teamwork" ]}
+                    typedSpeed={35}
+                    backSpeed={50}
                     loop
                 />
                 <a href="#" className="btn-main-offer">Contact Me</a>
