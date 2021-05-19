@@ -135,6 +135,12 @@ nav ul li {
 .main-info h1 {
   color: var(--primary-white);
   text-transform: uppercase;
+  font-weight: 600;
+}
+
+.main-info h3 {
+  color: var(--primary-white);
+  text-transform: uppercase;
 }
 
 /*---------- TYPED TEXT --------*/
