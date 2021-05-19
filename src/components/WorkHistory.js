@@ -2,7 +2,7 @@ import React from 'react'
 
 const WorkHistory = () => {
     return (
-        <div className="workhistory">
+        <div id="work history" className="workhistory">
             <div className="d-flex justify-content-center my-5">
                 <h1>Work History</h1>
             

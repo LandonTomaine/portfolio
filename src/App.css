@@ -100,7 +100,7 @@ nav ul li {
   display: inline-block; 
 }
 
-.navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
+.navbar-nav > li > a.active, .navbar-nav > li > a:focus {
   border-top: 0.1875rem solid var(--primary-white);
 }
 
@@ -116,7 +116,7 @@ nav ul li {
   background: url(background1.jpg) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 100vh;
 }
 
 .main-info {
@@ -372,4 +372,27 @@ nav ul li {
     width: 100%;
     direction: ltr;
   }
+}
+
+
+/*---------- FOOTER --------*/
+.footer {
+  background: var(--primary-black);
+  color: var(--primary-dark-gray);
+  padding: 3rem;
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--primary-dark-gray);
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: var(--primary-red);
+  cursor: pointer;
+}
+
+.footer p {
+  margin-bottom: 0;
 }

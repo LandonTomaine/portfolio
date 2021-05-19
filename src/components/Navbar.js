@@ -1,12 +1,14 @@
 import React from "react";
 import logo from "../logo8.png";
+import {Link} from "react-scroll";
+
 // REACT FONTAWESOME IMPORTS
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-lg py-0 navbar-light bg-dark">
+        <nav className="navbar navbar-expand-lg py-0 navbar-light bg-dark fixed-top">
             <div className="container">
 
                 <a className="navbar-brand" href="#"><img className="logo" src={logo} alt="logo..." /></a>
@@ -19,16 +21,16 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ms-auto">
                     <li className="nav-item active">
-                        <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
+                        <Link smooth={true} to="home" offset={-110} className="nav-link" href="#">Home <span className="sr-only">(current)</span></Link>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">About Me</a>
+                        <Link smooth={true} to="about me" offset={-95} className="nav-link" href="#">About Me</Link>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">What I Offer</a>
+                        <Link smooth={true} to="skills" offset={-95} className="nav-link" href="#">What I Offer</Link>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Work History</a>
+                        <Link smooth={true} to="work history" offset={-95} className="nav-link" href="#">Work History</Link>
                     </li>
 
                     </ul>
