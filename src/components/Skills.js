@@ -8,7 +8,7 @@ const Skills = () => {
            <h1 className="py-5">What I Offer</h1>
                <div className="container">
                    <div className="row justify-content-md-center">
-                       <div className="col-md-3 col-sm-6">
+                       <div className="col-md-6 col-sm-6">
                            <div className="box">
                                <div className="circle"><FontAwesomeIcon className="icon" icon= {faCode} size="2x" /></div>
                                <h3>Skills</h3>
@@ -24,7 +24,7 @@ const Skills = () => {
                            </div>
                        </div>
                        {/* - */}
-                       <div className="col-md-3 col-sm-6">
+                       <div className="col-md-6 col-sm-6">
                            <div className="box">
                                <div className="circle"><FontAwesomeIcon className="icon" icon={ faLaptop } size="2x" /></div>
                                <h3>Technologies</h3>
@@ -42,7 +42,7 @@ const Skills = () => {
                            </div>
                        </div>
                         {/* - */}
-                        <div className="col-md-3 col-sm-6">
+                        <div className="col-md-6 col-sm-6">
                            <div className="box">
                            <div className="circle"><FontAwesomeIcon className="icon" icon={ faTools } size="2x" /></div>
                                <h3>Tools</h3>
