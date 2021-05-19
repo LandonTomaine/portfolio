@@ -61,8 +61,7 @@ nav {
 }
 
 .logo {
-  width: 3.4375rem;
-  height: 3.375rem;
+  padding-top: 25px;
 }
 
 /* ----- MENU LINKS ---------*/
@@ -143,6 +142,10 @@ nav ul li {
 .main-info h3 {
   color: var(--primary-white);
   text-transform: uppercase;
+}
+
+.main-info h4 {
+  color: var(--primary-white);
 }
 
 /*---------- TYPED TEXT --------*/
@@ -267,6 +270,7 @@ nav ul li {
   padding: 0.625rem;
   margin-bottom: 1.875rem;
   background: var(--primary-white);
+  transition: 0.3s ease-in-out;
 }
 
 .skills .box:hover {
